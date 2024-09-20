@@ -3,9 +3,9 @@ output "vpc_id" {
   value = aws_vpc.main_vpc.id
 }
 
-# Output the SES Domain Verification Status
-output "ses_domain_verification_status" {
-  value = aws_ses_domain_identity.verified_domain.verification_status
+# Output the SES Domain Identity
+output "ses_domain_identity" {
+  value = aws_ses_domain_identity.verified_domain.domain
 }
 
 # Output the S3 Bucket Name
