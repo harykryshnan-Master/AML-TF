@@ -1,0 +1,1 @@
+aws ses get-identity-verification-attributes --identities devopsrangers.online
